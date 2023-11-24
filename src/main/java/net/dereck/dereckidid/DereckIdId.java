@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 
+import net.dereck.dereckidid.block.ModBlocks;
 import net.dereck.dereckidid.item.ModCreativeModTabs;
 import net.dereck.dereckidid.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,9 +33,11 @@ public class DereckIdId
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModCreativeModTabs.register(modEventBus);
 
+        // Estos metodos son para registrar los bloques e items
+        ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
