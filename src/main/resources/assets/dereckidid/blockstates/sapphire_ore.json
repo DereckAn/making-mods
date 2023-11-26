@@ -1,7 +1,7 @@
 {
     "variants": {
-        "":{
-            "model":"dereckidid:block/sapphire_ore"
-        }
+      "": {
+        "model": "dereckidid:block/sapphire_ore"
+      }
     }
-}
+  }

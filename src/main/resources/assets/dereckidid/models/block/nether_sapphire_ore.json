@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/cube_all",
     "textures": {
-        "all": "dereckidid:block/nether_sapphire_ore"
+      "all": "dereckidid:block/nether_sapphire_ore"
     }
-}
+  }
