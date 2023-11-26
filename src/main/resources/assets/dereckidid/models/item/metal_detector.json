@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "dereckidid:item/metal_detector"
+    }
+  }
+  
