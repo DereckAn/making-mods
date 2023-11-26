@@ -3,6 +3,9 @@
   "item.dereckidid.raw_sapphire": "Raw Sapphire",
 
   "item.dereckidid.metal_detector": "Metal Detector",
+  "tooltip.dereckidid.metal_detector.tooltip": "Finds valuables in the ground",
+
+
   "item.dereckidid.strawberry": "Strawberry",
   "item.dereckidid.pine_cone": "Pine Cone",
 
