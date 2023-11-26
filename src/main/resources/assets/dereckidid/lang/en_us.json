@@ -4,6 +4,12 @@
   "block.dereckidid.sapphire_block": "Block of Sapphire",
   "block.dereckidid.raw_sapphire_block": "Block of Raw Sapphire",
 
-  "creative.tutorial_tab": "Sapphire Tutorial Tab"
+  "creative.tutorial_tab": "Sapphire Tutorial Tab",
+
+  "block.dereckidid.sapphire_ore": "Sapphire Ore",
+  "block.dereckidid.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.dereckidid.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.dereckidid.end_sapphire_ore": "End Sapphire Ore"
+
 
 }
