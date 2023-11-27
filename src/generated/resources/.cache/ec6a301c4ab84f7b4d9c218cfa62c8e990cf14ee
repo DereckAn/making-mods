@@ -1,0 +1,7 @@
+// 1.20.1	2023-11-26T19:43:09.5190821	Tags for minecraft:block mod id dereckidid
+822992251fedd1375c379309a5ce99f182db490c data/dereckidid/tags/blocks/metal_detector_valuables.json
+ae898a0c745a943473ab4e5a63455b83847574a2 data/forge/tags/blocks/needs_netherite_tool.json
+2ea33d79e8883b1b4060a24f7702442359f6a05d data/minecraft/tags/blocks/mineable/pickaxe.json
+55b87d0b8a7f53407c4f43f56ce007efddd06453 data/minecraft/tags/blocks/needs_diamond_tool.json
+3eae711fe5c96171a334b89e6f91ff03cdd3b0a5 data/minecraft/tags/blocks/needs_iron_tool.json
+92b6970bb1b819f921ca872c2dee5842f11ba70f data/minecraft/tags/blocks/needs_stone_tool.json
