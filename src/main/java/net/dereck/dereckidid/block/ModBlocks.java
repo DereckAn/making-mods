@@ -29,6 +29,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+/* La clase ModBlocks en tu código es responsable de registrar y definir las propiedades de los bloques personalizados en tu mod de Minecraft. */
+
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
     DeferredRegister.create(ForgeRegistries.BLOCKS, "dereckidid");
@@ -68,7 +70,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SAPPHIRE_SLAB =
     registerBlock("sapphire_slab",
-    () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST))); // no requiere que le cambiemos mas cosas
+    () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST))); // no requiere que le cambiemos mas cosas
 
     public static final RegistryObject<Block> SAPPHIRE_BUTTON =
     registerBlock("sapphire_button",
@@ -81,23 +83,23 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SAPPHIRE_FENCE =
     registerBlock("sapphire_fence",
-    () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST)));
+    () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> SAPPHIRE_FENCE_GATE =
     registerBlock("sapphire_fence_gate",
-    () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST), SoundEvents.CHAIN_PLACE, SoundEvents.ANVIL_BREAK));
+    () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST), SoundEvents.CHAIN_PLACE, SoundEvents.ANVIL_BREAK));
 
     public static final RegistryObject<Block> SAPPHIRE_WALL =
     registerBlock("sapphire_wall",
-    () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST)));
+    () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> SAPPHIRE_DOOR =
     registerBlock("sapphire_door",
-    () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.IRON)); // noOcclusion es para que no se vea el bloque de arriba cuando se abre la puerta. o para que sea medio transparente por las rejas.
+    () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.IRON)); // noOcclusion es para que no se vea el bloque de arriba cuando se abre la puerta. o para que sea medio transparente por las rejas.
 
     public static final RegistryObject<Block> SAPPHIRE_TRAP_DOOR =
     registerBlock("sapphire_trap_door",
-    () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.IRON));  // Despues agrega la translation key en el archivo en_US.json
+    () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.IRON));  // Despues agrega la translation key en el archivo en_US.json
 
 
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

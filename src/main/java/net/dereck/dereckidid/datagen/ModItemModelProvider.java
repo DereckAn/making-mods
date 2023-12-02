@@ -14,6 +14,11 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+
+
+/* La clase ModItemModelProvider en tu código es una clase de generación de datos que se utiliza para definir los modelos de los items personalizados en tu mod de Minecraft.
+
+En Minecraft, un modelo de item es una representación visual de un item en el juego. Esto incluye cosas como la textura del item y cómo se ve cuando se sostiene o se coloca en un marco de item. */
 public class ModItemModelProvider  extends ItemModelProvider{
 
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {

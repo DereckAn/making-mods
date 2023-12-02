@@ -17,6 +17,11 @@ import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
+
+/* La clase ModBlockStateProvider en tu código es una clase de generación de datos que se utiliza para definir cómo se representan visualmente los bloques personalizados en Minecraft.
+En Minecraft, un bloque tiene un "estado de bloque" que define cómo se ve y se comporta en el juego. Esto incluye cosas como la textura del bloque, si es transparente o no, y cómo se comporta cuando el jugador interactúa con él.
+La clase ModBlockStateProvider extiende la clase BlockStateProvider de la API de Minecraft Forge. Esto significa que hereda todos los métodos y campos de BlockStateProvider, pero también puedes añadir tus propios métodos y campos personalizados.*/
+
 public class ModBlockStateProvider extends BlockStateProvider{
 
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
